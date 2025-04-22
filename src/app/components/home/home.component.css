@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'MyriadPro-Regular';
-    src: url('/assets/fonts/MyriadPro-Regular.otf') format('truetype');
+    src: url('/portfolio/assets/fonts/MyriadPro-Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: 'MyriadVariableConcept-Roman';
-    src: url('/assets/fonts/MyriadVariableConcept-Roman.otf') format('truetype');
+    src: url('/portfolio/assets/fonts/MyriadVariableConcept-Roman.otf') format('truetype');
     font-style: normal;
 }
 
@@ -32,7 +32,7 @@ html {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("/assets/background2.png");
+    background-image: url("/portfolio/assets/background2.png");
     background-size: 150% 200%;
     animation: gradientAnim 50s infinite;
     background-color: black
