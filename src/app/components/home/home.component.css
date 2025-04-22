@@ -1,0 +1,985 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('/assets/fonts/MyriadPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyriadVariableConcept-Roman';
+    src: url('/assets/fonts/MyriadVariableConcept-Roman.otf') format('truetype');
+    font-style: normal;
+}
+
+@keyframes gradientAnim {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/background2.png");
+    background-size: 150% 200%;
+    animation: gradientAnim 50s infinite;
+    background-color: black
+}
+
+/*HEADER*/
+.section-1 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 13vh;
+}
+
+/*HEADER LOGO*/
+.section-1 header div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.section-1 header div img {
+    width: 6.5vw;
+}
+
+/*HEADER MENU*/
+.section-1 header nav {
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+.section-1 header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    font-family: 'MyriadPro-Regular';
+    font-size: 1.2vw;
+    color: wheat;
+}
+
+.section-1 header nav ul li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/*HEADER CONTACT*/
+.section-1 header .header-contact {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.section-1 header .header-contact a {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.section-1 header .header-contact img {
+    width: 2.5vw;
+    cursor: pointer;
+}
+
+
+/*INTRODUCING ME SECTION*/
+.section-1 .about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 87vh;
+}
+
+.section-1 .about-me .introducing-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.section-1 .about-me .introducing-me #div1 {
+    font-size: 4vw;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 300;
+    color: wheat;
+}
+
+.section-1 .about-me .introducing-me #div2 {
+    font-size: 7.3vw;
+    font-family: 'MyriadVariableConcept-Roman';
+    color: wheat;
+}
+
+.section-1 .about-me .introducing-me #div3 {
+    font-size: 2.3vw;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 300;
+    color: wheat;
+}
+
+.section-1 .about-me .introducing-me #div4 {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    height: 5.5vh;
+    margin-top: 3.5vh;
+}
+
+.section-1 .about-me .introducing-me #div4 .button-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+    height: 100%;
+    background-color: wheat;
+    border-radius: 5px;
+    font-size: 1.6vw;
+    color: black;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.section-1 .about-me .introducing-me #div4 .button-resume:hover {
+    background-color: white;
+}
+
+.section-1 .about-me .introducing-me #div4 .contato-icons {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.section-1 .about-me .introducing-me #div4 .contato-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.section-1 .about-me .introducing-me #div4 .contato-icons a img {
+    width: 70%;
+}
+
+.section-1 .my-picture {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.section-1 .my-picture img {
+    width: 90%;
+}
+
+
+/*ABOUT-ME SECTION*/        
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.section-2 .about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+}
+
+.section-2 .about-me .about-me-picture {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.section-2 .about-me .about-me-picture img {
+    width: 26vw;
+}
+
+.section-2 .about-me .about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 28.5vw;
+}
+
+.section-2 .about-me .about-me-text h1 {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 500;
+    font-size: 3.5vw;
+    color: wheat;
+    margin: 0;
+}
+
+.section-2 .about-me .about-me-text p {
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 100;
+    font-size: 2vw;
+    color: white;
+    margin: 0;
+}
+
+.section-2 .about-me .about-me-text .about-me-text-my-stacks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: wheat;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+.section-2 .about-me .about-me-text .about-me-text-my-stacks div {
+    padding: 6px 10px;
+    border: 1.5px solid wheat;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.section-2 .about-me .about-me-text .about-me-text-my-stacks div:hover {
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+/*PROJECTS-SECTION*/
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.section-3 .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 90%;
+}
+
+.section-3 .projects .project-box {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 45%;
+}
+
+.section-3 .projects .project-box:hover {
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.section-3 .projects .project-box .project-image {
+    width: 100%;
+    height: 45%;
+}
+
+.section-3 .projects .project-box .project-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-3 .projects .project-box .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    padding-top: 15px;
+    border-right: 1px solid rgb(27, 27, 27);
+    border-bottom: 1px solid rgb(27, 27, 27);
+    border-left: 1px solid rgb(27, 27, 27);
+    }
+
+.section-3 .projects .project-box .project-info .project-titleAndaccess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    color: wheat;
+    font-family: 'MyriadVariableConcept-Roman';
+}
+
+.section-3 .projects .project-box .project-info .project-titleAndaccess .project-title {
+    display: flex;
+    width: 80%;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.section-3 .projects .project-box .project-info .project-titleAndaccess .project-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    width: 20%;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.9vw;
+    border: 1px solid wheat;
+}
+
+.section-3 .projects .project-box .project-info .project-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    color: #B2B2B2;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-size: 1vw;
+}
+
+.section-3 .projects .project-box .project-info .project-stacks {
+    width: 90%;
+    height: 20%;
+    color: #B2B2B2;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-size: 1vw;
+}
+
+
+/*KEEP IN TOUCH SECTION*/
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+}
+
+.section-4 .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 90%;
+}
+
+.section-4 .contact .contact-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.section-4 .contact .contact-sections .contact-title {
+    width: 100%;
+    height: 8%;
+    font-family: 'MyriadPro-Regular';
+    font-size: 1.3vw;
+    color: wheat;
+}
+
+.section-4 .contact .contact-sections form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.section-4 .contact .contact-sections form input, textarea, button {
+    all: unset;
+    background-color: wheat;
+    padding-left: 10px;
+    font-family: 'MyriadVariableConcept-Roman';
+    border-radius: 8px;
+    font-size: 1.2vw;
+}
+
+.section-4 .contact .contact-sections form .contact-name {
+    width: 46%;
+    height: 12%; 
+}
+
+.section-4 .contact .contact-sections form .contact-email {
+    width: 47%;
+    height: 12%; 
+}
+
+.section-4 .contact .contact-sections form .contact-subject {
+    width: 100%;
+    height: 12%;
+}
+
+.section-4 .contact .contact-sections form textarea {
+    width: 100%;
+    height: 42%;
+    padding-top: 10px;
+}
+
+.section-4 .contact .contact-sections form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 12%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.section-4 .contact .contact-sections form button:hover {
+    background-color: rgb(201, 176, 129);
+}
+
+.section-4 .contact .contact-image {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.section-4 .contact .contact-image img {
+    width: 85%;
+}
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 75%;
+    height: 80%;
+}
+
+footer .footer .footer-website-sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 30%;
+    font-size: 1.5vw;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 100;
+    color: wheat;
+}
+
+footer .footer .footer-website-sections a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+footer .footer .footer-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+}
+
+footer .footer .footer-contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+footer .footer .footer-contact a img {
+    width: 50%;
+    cursor: pointer;
+}
+
+footer .footer .website-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 30%;
+    color: wheat;
+    font-size: 1.5vw;
+    font-family: 'MyriadVariableConcept-Roman';
+    font-weight: 100;
+}
+
+
+/*MOBILE*/
+@media (max-width: 480px) {
+    .section-1 {
+        background-size: cover;
+    }
+
+    .section-1 header div {
+        display: none;
+    }
+
+    .section-1 header .header-contact {
+        display: none;
+    }
+
+    .section-1 header nav {
+        width: 90%;
+    }
+
+    .section-1 header nav ul {
+        justify-content: space-between;
+        font-size: 3.8vw;
+    }
+
+    .section-1 .about-me {
+        width: 90%;
+        height: 87vh;
+    }
+
+    .section-1 .about-me .introducing-me {
+        width: 100%;
+        height: 80%;
+    }
+
+    .section-1 .about-me .introducing-me #div1 {
+        font-size: 13vw;
+    }
+    
+    .section-1 .about-me .introducing-me #div2 {
+        font-size: 26vw;
+    }
+    
+    .section-1 .about-me .introducing-me #div3 {
+        font-size: 8vw;
+    }
+
+    .section-1 .about-me .introducing-me #div4 {
+        width: 97%;
+    }
+
+    .section-1 .about-me .introducing-me #div4 .button-resume {
+        font-size: 5.3vw;
+    }
+    
+    .section-1 .my-picture {
+        display: none;
+    }
+
+
+    /*ABOUT-ME SECTION*/        
+    .section-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .section-2 .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+    }
+
+    .section-2 .about-me .about-me-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35%;
+    }
+
+    .section-2 .about-me .about-me-picture img {
+        width: 70%;
+    }
+
+    .section-2 .about-me .about-me-text {
+        width: 100%;
+        height: 58%;
+    }
+
+    .section-2 .about-me .about-me-text h1 {
+        font-size: 8vw;
+    }
+
+    .section-2 .about-me .about-me-text p {
+        font-size: 4.7vw;
+    }
+
+    .section-2 .about-me .about-me-text .about-me-text-my-stacks {
+        font-size: 4vw;
+    }
+
+
+    /*PROJECTS-SECTION*/
+    .section-3 {
+        height: auto;
+    }
+
+    .section-3 .projects {
+        width: 90%;
+        padding: 30px 0;
+        height: auto;
+        justify-content: center;
+    }
+
+    .section-3 .projects .project-box {
+        width: 90%;
+        height: 400px;
+        margin-bottom: 40px;
+        background-color: rgb(7, 7, 7);
+        border: none;
+    }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-title {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-access {
+        font-size: 3.5vw;
+        border: 1px solid wheat;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-description {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-stacks {
+        font-size: 4vw;
+        font-weight: 100;
+    }
+
+
+    /*KEEP IN TOUCH SECTION*/
+    .section-4 {
+        height: 450px;
+    }
+
+    .section-4 .contact {
+        width: 90%;
+        height: 90%;
+    }
+
+    .section-4 .contact .contact-sections {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-4 .contact .contact-sections form input, textarea, button {
+        font-size: 3.8vw;
+    }
+
+    .section-4 .contact .contact-sections .contact-title {
+        font-size: 4.5vw;
+    }
+
+    .section-4 .contact .contact-sections form button {
+        width: 40%;
+    }
+
+    .section-4 .contact .contact-image {
+        display: none;
+    }
+
+
+    /*FOOTER*/
+    footer {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    footer .footer {
+        width: 90%;
+        height: 90%;
+    }
+
+    footer .footer .footer-website-sections {
+        width: 85%;
+        height: 30%;
+        font-size: 4vw;
+    }
+
+    footer .footer .footer-contact {
+        width: 60%;
+        height: 30%;
+    }
+
+    footer .footer .footer-contact a img {
+        width: 40%;
+        cursor: pointer;
+    }
+
+    footer .footer .website-rights {
+        width: 85%;
+        height: 30%;
+        font-size: 4vw;
+    }
+}
+
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-1 {
+        background-size: cover;
+    }
+
+    .section-1 header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-1 header div {
+        display: none;
+    }
+
+    .section-1 header .header-contact {
+        display: none;
+    }
+
+    .section-1 header nav {
+        width: 78%;
+    }
+
+    .section-1 header nav ul {
+        justify-content: space-between;
+        font-size: 3.3vw;
+    }
+
+    .section-1 .about-me {
+        justify-content: center;
+        width: 90%;
+        height: 87vh;
+        margin-left: 60px;
+    }
+
+    .section-1 .about-me .introducing-me {
+        width: 100%;
+        height: 80%;
+    }
+
+    .section-1 .about-me .introducing-me #div1 {
+        font-size: 11vw;
+    }
+    
+    .section-1 .about-me .introducing-me #div2 {
+        font-size: 24vw;
+    }
+    
+    .section-1 .about-me .introducing-me #div3 {
+        font-size: 7.5vw;
+    }
+
+    .section-1 .about-me .introducing-me #div4 {
+        width: 90%;
+    }
+
+    .section-1 .about-me .introducing-me #div4 .button-resume {
+        font-size: 5.3vw;
+    }
+    
+    .section-1 .my-picture {
+        display: none;
+    }
+
+
+    /*ABOUT-ME SECTION*/        
+    .section-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .section-2 .about-me {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+    }
+
+    .section-2 .about-me .about-me-picture {
+        display: none;
+    }
+
+    .section-2 .about-me .about-me-text {
+        width: 100%;
+        height: 80%;
+    }
+
+    .section-2 .about-me .about-me-text h1 {
+        font-size: 8vw;
+    }
+
+    .section-2 .about-me .about-me-text p {
+        font-size: 4.7vw;
+    }
+
+    .section-2 .about-me .about-me-text .about-me-text-my-stacks {
+        font-size: 4vw;
+    }
+
+
+    /*PROJECTS-SECTION*/
+    .section-3 {
+        height: auto;
+    }
+
+    .section-3 .projects {
+        width: 90%;
+        padding: 80px 0 0 0;
+        height: auto;
+        justify-content: center;
+    }
+
+    .section-3 .projects .project-box {
+        width: 90%;
+        height: 750px;
+        margin-bottom: 80px;
+        background-color: rgb(7, 7, 7);
+        border: none;
+    }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-title {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-access {
+        font-size: 3.5vw;
+        border: 1px solid wheat;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-description {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .section-3 .projects .project-box .project-info .project-stacks {
+        font-size: 4vw;
+        font-weight: 100;
+    }
+
+
+    /*KEEP IN TOUCH SECTION*/
+    .section-4 {
+        height: 850px;
+    }
+
+    .section-4 .contact {
+        width: 90%;
+        height: 90%;
+    }
+
+    .section-4 .contact .contact-sections {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-4 .contact .contact-sections form input, textarea, button {
+        font-size: 3.8vw;
+    }
+
+    .section-4 .contact .contact-sections .contact-title {
+        font-size: 4.5vw;
+    }
+
+    .section-4 .contact .contact-sections form button {
+        width: 40%;
+    }
+
+    .section-4 .contact .contact-image {
+        display: none;
+    }
+
+
+    /*FOOTER*/
+    footer {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    footer .footer {
+        width: 90%;
+        height: 90%;
+    }
+
+    footer .footer .footer-website-sections {
+        width: 85%;
+        height: 30%;
+        font-size: 4vw;
+    }
+
+    footer .footer .footer-contact {
+        width: 60%;
+        height: 30%;
+    }
+
+    footer .footer .footer-contact a img {
+        width: 40%;
+        cursor: pointer;
+    }
+
+    footer .footer .website-rights {
+        width: 85%;
+        height: 30%;
+        font-size: 4vw;
+    }
+}
