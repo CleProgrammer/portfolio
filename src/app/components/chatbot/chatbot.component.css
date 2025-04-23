@@ -145,6 +145,12 @@
     .icon-chat-bot-message {
         display: none;
     }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-access {
+        font-weight: 500;
+        background-color: wheat;
+        color: black;
+    }
 }
 
 
@@ -152,5 +158,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .icon-chat-bot-message {
         display: none;
+    }
+
+    .section-3 .projects .project-box .project-info .project-titleAndaccess .project-access {
+        font-weight: 500;
+        background-color: wheat;
+        color: black;
     }
 }
