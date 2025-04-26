@@ -91,6 +91,7 @@ export class HomeComponent implements OnInit {
         //CHATBOT
         c(".chat-bot-question").innerHTML = this.languagePortuguese.portuguese.chatbot[0]
         c("#resumebot").innerHTML = this.languagePortuguese.portuguese.chatbot[1]
+        c("#resumebot").href = this.languagePortuguese.portuguese.chatbot[5]
         c("#aboutmebot").innerHTML = this.languagePortuguese.portuguese.chatbot[2]
         c("#projectsbot").innerHTML = this.languagePortuguese.portuguese.chatbot[3]
         c("#contactbot").innerHTML = this.languagePortuguese.portuguese.chatbot[4]
@@ -158,6 +159,7 @@ export class HomeComponent implements OnInit {
         //CHATBOT
         c(".chat-bot-question").innerHTML = this.languageEnglish.english.chatbot[0]
         c("#resumebot").innerHTML = this.languageEnglish.english.chatbot[1]
+        c("#resumebot").href = this.languageEnglish.english.chatbot[5]
         c("#aboutmebot").innerHTML = this.languageEnglish.english.chatbot[2]
         c("#projectsbot").innerHTML = this.languageEnglish.english.chatbot[3]
         c("#contactbot").innerHTML = this.languageEnglish.english.chatbot[4]

@@ -1,5 +1,5 @@
 {"portuguese": {
-    "chatbot": ["Olá, como posso ajudar?", "currículo", "sobre mim", "projetos", "contato"],
+    "chatbot": ["Olá, como posso ajudar?", "currículo", "sobre mim", "projetos", "contato", "https://drive.google.com/file/d/10GJFopieLwpCWnhQ3Wna-hLkMUi1-5Hs/view"],
     "header": ["HOME", "SOBRE MIM", "PROJETOS"],
     "mainSection": ["Olá, eu sou", "Clebson", "desenvolvedor front-end", "currículo", "https://drive.google.com/file/d/10GJFopieLwpCWnhQ3Wna-hLkMUi1-5Hs/view?usp=sharing"],
     "aboutMe": ["Oi, eu sou Clebson Barbosa", "Sou desenvolvedor front-end apaixonado por criar interfaces modernas, responsivas e amigáveis para o usuário. Gosto de transformar ideias em experiências visuais que conectam usuários aos produtos. Estou sempre aprendendo novas tecnologias e aprimorando minhas habilidades em HTML, CSS, JavaScript e frameworks como o React. Acredito que cada projeto é uma oportunidade de crescer e construir algo incrível.", ["React.js", "Angular", "JavaScript", "TailwindCSS", "React Hooks", "Next.js", "Node.js", "TypeScript", "MySQL"]],
