@@ -1,5 +1,5 @@
 {"english": {
-    "chatbot": ["Hello, how can I help you?", "resume", "about me", "projects", "contact"],
+    "chatbot": ["Hello, how can I help you?", "resume", "about me", "projects", "contact", "https://drive.google.com/file/d/1Njiyfwgh0KP3xxgy_i56JZUQ-9EskDUw/view"],
     "header": ["HOME", "ABOUT ME", "PROJECTS"],
     "mainSection": ["Hello, I am", "Clebson", "front-end developer UX/UI", "resume", "https://drive.google.com/file/d/1Njiyfwgh0KP3xxgy_i56JZUQ-9EskDUw/view"],
     "aboutMe": ["Hi, I am Clebson Barbosa", "I'm a front-end developer passionate about creating modern, responsive, and user-friendly interfaces. I enjoy turning ideas into visual experiences that connect users with products. I'm always learning new technologies and improving my skills in HTML, CSS, JavaScript, and frameworks like React. I believe every project is a chance to grow and build something amazing.", ["React.js", "Angular", "JavaScript", "TailwindCSS", "React Hooks", "Next.js", "Node.js", "TypeScript", "MySQL"]],
