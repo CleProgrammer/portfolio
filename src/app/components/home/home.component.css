@@ -87,21 +87,49 @@ html {
     display: flex;
     justify-content: right;
     align-items: center;
+    text-align: center;
     width: 33%;
     height: 100%;
+    color: wheat;
 }
 
-.section-1 header .header-contact a {
+.section-1 header .header-contact .language-en {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-}
-
-.section-1 header .header-contact img {
-    width: 2.5vw;
+    text-align: center;
+    width: 5%;
+    height: 20%;
+    font-family: 'MyriadPro-Regular';
+    font-size: 1.2vw;
+    color: white;
     cursor: pointer;
 }
 
+.section-1 header .header-contact .separate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5%;
+    height: 20%;
+    font-family: 'MyriadPro-Regular';
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+.section-1 header .header-contact .language-pt {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    width: 5%;
+    height: 20%;
+    font-family: 'MyriadPro-Regular';
+    font-size: 1.2vw;
+    cursor: pointer;
+
+}
 
 /*INTRODUCING ME SECTION*/
 .section-1 .about-me {
@@ -348,7 +376,7 @@ html {
 
 .section-3 .projects .project-box .project-info .project-titleAndaccess .project-title {
     display: flex;
-    width: 80%;
+    width: 75%;
     font-weight: 500;
     font-size: 1.5vw;
 }
@@ -359,7 +387,7 @@ html {
     align-items: center;
     text-align: center;
     height: 30%;
-    width: 20%;
+    width: 21%;
     padding: 5px;
     border-radius: 15px;
     font-size: 0.9vw;
@@ -470,7 +498,7 @@ html {
     align-items: center;
     width: 25%;
     height: 12%;
-    padding: 0;
+    padding: 0px 5px;
     cursor: pointer;
 }
 
@@ -567,16 +595,66 @@ footer .footer .website-rights {
         background-size: cover;
     }
 
+    .section-1 header {
+        justify-content: right;
+        width: 95%;
+    }
+
     .section-1 header div {
         display: none;
     }
 
+    /*HEADER CONTACT*/
     .section-1 header .header-contact {
-        display: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 13%;
+        height: 100%;
+        color: wheat;
+    }
+
+    .section-1 header .header-contact .language-en {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-size: 3.8vw;
+        color: white;
+        cursor: pointer;
+    }
+
+    .section-1 header .header-contact .separate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-weight: 600;
+        font-size: 3.8vw;
+    }
+
+    .section-1 header .header-contact .language-pt {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        text-align: center;
+        width: 25%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-size: 3.8vw;
+        cursor: pointer;
     }
 
     .section-1 header nav {
-        width: 90%;
+        width: 65%;
+        margin-right: 35px;
     }
 
     .section-1 header nav ul {
@@ -656,7 +734,7 @@ footer .footer .website-rights {
     }
 
     .section-2 .about-me .about-me-text h1 {
-        font-size: 8vw;
+        font-size: 7.8vw;
     }
 
     .section-2 .about-me .about-me-text p {
@@ -774,7 +852,7 @@ footer .footer .website-rights {
     footer .footer .website-rights {
         width: 85%;
         height: 30%;
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 }
 
@@ -786,8 +864,8 @@ footer .footer .website-rights {
     }
 
     .section-1 header {
-        justify-content: center;
-        align-items: center;
+        justify-content: right;
+        width: 95%;
     }
 
     .section-1 header div {
@@ -795,16 +873,60 @@ footer .footer .website-rights {
     }
 
     .section-1 header .header-contact {
-        display: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 12%;
+        height: 100%;
+        color: wheat;
+    }
+
+    .section-1 header .header-contact .language-en {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-size: 3.5vw;
+        color: white;
+        cursor: pointer;
+    }
+
+    .section-1 header .header-contact .separate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-weight: 600;
+        font-size: 3.5vw;
+    }
+
+    .section-1 header .header-contact .language-pt {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        text-align: center;
+        width: 25%;
+        height: 20%;
+        font-family: 'MyriadPro-Regular';
+        font-size: 3.5vw;
+        cursor: pointer;
     }
 
     .section-1 header nav {
-        width: 78%;
+        width: 58%;
+        margin-right: 70px;
     }
 
     .section-1 header nav ul {
         justify-content: space-between;
-        font-size: 3.3vw;
+        font-size: 3.5vw;
     }
 
     .section-1 .about-me {
@@ -871,7 +993,7 @@ footer .footer .website-rights {
     }
 
     .section-2 .about-me .about-me-text h1 {
-        font-size: 8vw;
+        font-size: 7.8vw;
     }
 
     .section-2 .about-me .about-me-text p {
@@ -990,6 +1112,6 @@ footer .footer .website-rights {
     footer .footer .website-rights {
         width: 85%;
         height: 30%;
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 }
