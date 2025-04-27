@@ -167,10 +167,7 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  
-
-
-
+  //SEND MESSAGE
   sendMessage() {
     const sendMessage = document.querySelector('.form-send-message') as HTMLElement
     const sentMessage = document.querySelector('.contact-title') as HTMLElement
