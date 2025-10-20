@@ -33,9 +33,9 @@ export class HomeComponent implements OnInit {
         //HEADER
         e.target.style.color = 'white'
         c(".language-en").style.color = 'wheat'
-        c("#navhome").innerHTML = this.languagePortuguese.portuguese.header[0]
-        c("#navaboutme").innerHTML = this.languagePortuguese.portuguese.header[1]
-        c("#navprojects").innerHTML = this.languagePortuguese.portuguese.header[2]
+        c("#navhome a").innerHTML = this.languagePortuguese.portuguese.header[0]
+        c("#navaboutme a").innerHTML = this.languagePortuguese.portuguese.header[1]
+        c("#navprojects a").innerHTML = this.languagePortuguese.portuguese.header[2]
 
         //INTRODUCING ME
         c("#div1").innerHTML = this.languagePortuguese.portuguese.mainSection[0]
@@ -101,9 +101,9 @@ export class HomeComponent implements OnInit {
         //HEADER
         e.target.style.color = 'white'
         c(".language-pt").style.color = 'wheat'
-        c("#navhome").innerHTML = this.languageEnglish.english.header[0]
-        c("#navaboutme").innerHTML = this.languageEnglish.english.header[1]
-        c("#navprojects").innerHTML = this.languageEnglish.english.header[2]
+        c("#navhome a").innerHTML = this.languageEnglish.english.header[0]
+        c("#navaboutme a").innerHTML = this.languageEnglish.english.header[1]
+        c("#navprojects a").innerHTML = this.languageEnglish.english.header[2]
 
         //INTRODUCING ME
         c("#div1").innerHTML = this.languageEnglish.english.mainSection[0]
